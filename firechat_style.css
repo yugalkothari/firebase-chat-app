@@ -1,0 +1,135 @@
+.msg{
+	margin: 1rem 0;
+	padding: .5rem;
+	width: 50%;
+	background-color: #F5ECCE;
+	word-wrap: break-word;  /* This is used so that if the message is too long then it goes to the next line*/
+	text-align: left;
+}
+
+
+/* 'me' class will change the background color and the text-alignment of your messages, 
+thus differentiating them from the messages sent by other users */
+.me{
+	background-color: #D0F5A9;
+	text-align: right;
+	width: 80%;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 500px;
+  height: 100px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+}
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}
+
+#p{
+color:white;
+
+}
+#p:hover
+{
+color:#D0F5A9;
+}
+
+/* Make the application better with the following style */
+#chat_container{
+	width: 20%;
+	margin: 0 auto;
+	min-width: 70rem;
+	height: 30rem;
+	min-height: 300px;
+}
+
+#results{
+	width: 50%;
+	margin: 0 auto;
+	height: 70%;
+	overflow-y: auto;
+}
+
+#form_container{
+	width: 55%;
+	margin: 0 auto;
+}
+
+#username{
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+   	border: 1px solid lightgrey;
+    padding: .5rem;
+    
+}
+
+#text{
+	display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: .5rem;
+    margin-top: .5rem;
+    height: 3rem;
+    
+}
+#body {
+    overflow: scroll;
+    overflow-x: hidden;
+        }
+::-webkit-scrollbar{
+  width:0px;   // here actuall it exist but width is 0 so no one can see it 
+  background:transparent;
+} //end of the code here
+// this code for further customization of thumbs
+::-webkit-scrollbar-thumb{
+   background-color: rgba(0,0,0,0);
+
+}
+
+
+
+
+#post{
+	display: block;
+	margin: 0 auto;
+	
+	font-size: 1rem;
+	color:black;
+	background:white;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+
+}
+#google_login{
+	
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+
+	font-size: 1rem;
+	color:black;
+	background:white;
+}
